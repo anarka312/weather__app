@@ -1,8 +1,9 @@
 @import '/css/reset.css';
-@mport url("https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900") 
+@import url("https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900"); 
 
 body {
   background-color: #282828;
+  font-family: 'Inter', system-ui, sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -31,6 +32,8 @@ body {
 }
 .form__input {
   flex-grow: 1;
+  padding-left: 20px;
+  padding-right: 10px;
 }
 .form__btn {
 }
